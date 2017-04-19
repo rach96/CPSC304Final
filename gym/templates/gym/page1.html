@@ -1,0 +1,19 @@
+{% extends 'gym/base.html' %}
+
+
+{% block head %}
+    <title>Employee Page 1</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Selection: Select the types of equipment you want, and what attributes you would like displayed</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <form action="" method="post"> {% csrf_token %}
+            {{ form.as_p}}
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+{% endblock %}

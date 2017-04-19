@@ -1,0 +1,18 @@
+{% extends 'gym/base.html' %}
+
+
+{% block head %}
+    <title>Employee Page 1</title>
+{% endblock %}
+
+{% block body %}
+</body>
+    <title>HomePage</title>
+    <h1>Welcome to the Awesome Gym!</h1>
+
+    <img src="https://garfield.com/img/logo@2x.png" height=400px>
+
+    <form method="post" action=""> {% csrf_token %}
+        {{ form }}
+    </form>
+{% endblock %}
