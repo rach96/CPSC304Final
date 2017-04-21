@@ -1,19 +1,28 @@
 {% extends 'gym/base.html' %}
 
-
 {% block head %}
     <title>Employee Page 1</title>
 {% endblock %}
 
 {% block body %}
-    <h1>Selection: Select the types of equipment you want, and what attributes you would like displayed</h1>
+    <img class="img4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Calhan_Colorado_High_School_Gymnasium_by_David_Shankbone.jpg/1200px-Calhan_Colorado_High_School_Gymnasium_by_David_Shankbone.jpg" alt="Smiley face" align="right">
+    <h5> Room Rates Per Hour:</h5>
+    <h6> Basketball Room: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+    <h6> Tennis Room: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+    <h6> Badminton Room: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-        <form action="" method="post"> {% csrf_token %}
-            {{ form.as_p}}
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+
+    <h5> Equipment Rates Per Hour:</h5>
+    <h6> Basketball: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+    <h6> Tennis Racket: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+    <h6> Badminton Racket: </h6>
+    <ul> <li> <h3> $50 </h3> </li> </ul>
+
 {% endblock %}

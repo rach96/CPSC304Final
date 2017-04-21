@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .sql_tables import Customer1
+from database.sqlite import Customer1
 
 # Create your tests here.
 
