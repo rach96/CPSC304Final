@@ -1,5 +1,15 @@
 {% extends 'gym/base.html' %}
 
+<script>
+$(function() {
+var loc = window.location.href;
+   $(".navbar .navbar-nav > li").each(function() {
+      if (loc.match('/software')) { // software is the name of the page/slug
+        $(this).addClass("active");
+        }
+   });
+});
+</script>
 
 {% block head %}
     <title>Employee Page 2</title>
@@ -7,7 +17,11 @@
 
 
 {% block body %}
-    <h1>We are the best gymnasium in the business</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h5>We are the best gymnasium in the business</h5>
     <br>
     <img class="img3" src=" https://s-media-cache-ak0.pinimg.com/originals/0e/3b/6c/0e3b6c00360b7d20027261bc7e89937c.jpg" alt="Smiley face">
     <br>

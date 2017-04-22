@@ -1,5 +1,15 @@
 {% extends 'gym/base.html' %}
 
+<script>
+$(function() {
+var loc = window.location.href;
+   $(".navbar .navbar-nav > li").each(function() {
+      if (loc.match('/software')) { // software is the name of the page/slug
+        $(this).addClass("active");
+        }
+   });
+});
+</script>
 
 {% block head %}
     <title>Employee Page 3</title>
@@ -8,6 +18,11 @@
 
 {% block body %}
 <img class="img2" src="https://media.licdn.com/mpr/mpr/p/5/005/07c/04b/12e764b.jpg" alt="Smiley face" align="right">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
     <h5> Contact Information:</h5>
     <br>

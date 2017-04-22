@@ -61,11 +61,16 @@
 
     }
 
+    .icon-bar {
+        padding:30px;
+    }
+
     h3 {
-        font-family: "Times New Roman", Times, serif;
+        font-family: 'Enriqueta', arial, serif;
         font-size: 15px;
         padding-top: 0;
         padding-bottom: 0;
+        margin-left:20px;
     }
 
     p4 {
@@ -86,11 +91,14 @@
     h5 {
         font-family: "Times New Roman", Times, serif;
         font-size: 25px;
+        margin-top:0px;
+        margin-left: 20px;
     }
 
     h6 {
         font-family: "Times New Roman", Times, serif;
         font-size: 20px;
+        margin-left: 20px;
     }
 
     p {
@@ -173,9 +181,10 @@
     }
 
     .img2 {
-        height:400px;
+        height:350px;
         width: 400px;
-        align-items: center;
+        margin-top:100px;
+        margin-right:120px;
     }
 
     .img3 {
@@ -186,6 +195,8 @@
     }
 
     .img4 {
+        margin-top:100px;
+        margin-right:80px;
         height:450px;
         width:500px;
     }

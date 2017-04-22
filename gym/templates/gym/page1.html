@@ -1,11 +1,26 @@
 {% extends 'gym/base.html' %}
 
+<script>
+$(function() {
+var loc = window.location.href;
+   $(".navbar .navbar-nav > li").each(function() {
+      if (loc.match('/software')) { // software is the name of the page/slug
+        $(this).addClass("active");
+        }
+   });
+});
+</script>
+
 {% block head %}
     <title>Employee Page 1</title>
 {% endblock %}
 
 {% block body %}
     <img class="img4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Calhan_Colorado_High_School_Gymnasium_by_David_Shankbone.jpg/1200px-Calhan_Colorado_High_School_Gymnasium_by_David_Shankbone.jpg" alt="Smiley face" align="right">
+    <br>
+    <br>
+    <br>
+    <br>
     <h5> Room Rates Per Hour:</h5>
     <h6> Basketball Room: </h6>
     <ul> <li> <h3> $50 </h3> </li> </ul>

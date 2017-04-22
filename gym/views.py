@@ -136,7 +136,6 @@ def viewC(request):
 
 
 #Delete WITHOUT CASCADE Operation
-@login_required
 def page6(request):
     form = MyFormPage6(request.POST)
     if request.method == "POST":
@@ -151,7 +150,6 @@ def page6(request):
     return render(request, 'gym/page6.html', {'form':form})
 
 #Delete ON CASCADE Operation
-@login_required
 def page8(request):
     form = MyFormPage8(request.POST)
     if request.method == "POST":
@@ -169,7 +167,6 @@ def page8(request):
     return render(request, 'gym/page8.html', {'form':form})
 
 #Update Operation
-@login_required
 def page7(request):
     form = MyFormPage7(request.POST)
     if request.method == "POST":

@@ -1,12 +1,21 @@
 {% extends 'gym/base.html' %}
 
+<script>
+$(function() {
+var loc = window.location.href;
+   $(".navbar .navbar-nav > li").each(function() {
+      if (loc.match('/software')) { // software is the name of the page/slug
+        $(this).addClass("active");
+        }
+   });
+});
+</script>
+
 {% block head %}
     <title>AWESOME GYM</title>
 {% endblock %}
 
 {% block body %}
-
-
     <title>HomePage</title>
 {#    <h1>Welcome to the Awesome Gym!</h1>#}
 
