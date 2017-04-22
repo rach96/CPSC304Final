@@ -5,13 +5,108 @@
 {% endblock %}
 
 {% block body %}
+
+
     <title>HomePage</title>
 {#    <h1>Welcome to the Awesome Gym!</h1>#}
 
-{#    <img class="img" src="http://www.mdcollege.in/Image/Sports%20Logo.jpg">#}
-{#    <img class="img" src="http://www.discoverymundo.com/blog/wp-content/uploads/2016/07/sports-cancun.jpg">#}
+    <div>
+    <body class="home" style="z-index:1000;">
+    <p4> The gym is a state of mind</p4>
+    </body>
 
-    <body class="home">
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <div class="about" style="clear: left;">
+        <p1 style="float: right;"><img src="http://www.kaylainthecity.com/wp-content/uploads/gym.jpg" width=700px; id="photo1"></p1>
+        <p1>Why Us?</p1>
+        <div style="line-height:100%;"><br></div>
+        <p3>Basketball</p3>
+        <p3>Tennis</p3>
+        <p3>Badminton and More!</p3>
+        <div style="line-height:100%;"><br></div>
+        <p3>Affordable</p3>
+        <p3>Open 7 Days a Week</p3>
+    </div>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 50px;
+}
+    .col-3 {width: 45%;}
+
+    .header {
+        background-color: #9933cc;
+        color: #ffffff;
+        padding: 30px;
+        font-size:45px;
+        font-family: 'Enriqueta', arial, serif;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        margin:  0;
+        padding: 0;
+    }
+
+    .menu li {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left:60px;
+        padding-right:120px;
+        margin-bottom: 8px;
+        font-size:20px;
+        font-family: 'Enriqueta', arial, serif;
+        background-color: #33b5e5;
+        color: #ffffff;
+        text-align: center;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+    .menu li:nth-child(2) {
+        padding-right:160px;
+    }
+
+    .menu li:last-child {
+        padding-right:165px;
+    }
+
+    .menu li:hover {
+        background-color: #0099cc;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="header">
+        <h1>Select A Preference</h1>
+    </div>
+
+    <div class="row">
+    <div class="col-3 menu" id="herpderrp">
+        <ul>
+            <li>Rooms </li>
+            <li>Equipment</li>
+            <li>Membership</li>
+        </ul>
+    </div>
+    </div>
     </body>
 
 {% endblock %}

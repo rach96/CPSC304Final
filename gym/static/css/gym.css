@@ -1,7 +1,53 @@
+    html {
+        background-color: black;
+    }
+
+    body.home {
+        background-image: url("https://fitnessaddict.org/wp-content/uploads/2016/11/Fitness-Wallpapers-HD.jpg");
+        background-position: top 50px right 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #464646;
+    }
+
+    .about {
+        background-color: #181818;
+        height:530px;
+        width:100%;
+        font-size:50px;
+        padding-top:30px;
+        padding-bottom:300px;
+    }
+
+    #photo1 {
+        padding-left: 100px;
+        margin-right:50px;
+        margin-bottom:10px;
+    }
+
+    p1 {
+        margin-left:50px;
+        margin-bottom:70px;
+        padding-top: 20px;
+        color: #FFFFFA;
+        font-size:40px;
+        font-family: 'Enriqueta', arial, serif;
+        padding-left: 20px;
+    }
+
+    p3 {
+        color: #FFFFFA;
+        font-size:25px;
+        padding-left:100px;
+        padding-top:30px;
+        padding-bottom:30px;
+        margin-bottom:30px;
+    }
 
     h1 {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 30px;
+        font-size:38px;
+        font-family: 'Enriqueta', arial, serif;
         text-align: center;
     }
 
@@ -10,11 +56,31 @@
         font-size: 20px;
     }
 
+    br.todo {
+        line-height: 100%;
+
+    }
+
     h3 {
         font-family: "Times New Roman", Times, serif;
         font-size: 15px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    p4 {
+        color:white;
+        font-size:40px;
+        font-family: 'Enriqueta', arial, serif;
+        top:100px;
+        padding-left: 60px;
+        display: table-cell;
+        position:relative;
+
+    }
+
+    #about {
+        padding-top:100px;
     }
 
     h5 {
@@ -31,15 +97,50 @@
         font-size:20px;
     }
 
+    p2 {
+        font-size:30px;
+        margin-left:50px;
+        color:white;
+
+    }
+
+    .scroll{
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        background-color: white;
+        column-gap: 250px;
+        overflow:scroll;
+        padding-top:140px;
+        height:100px;
+        padding-left:60px;
+        padding-right:30px;
+        display:table-cell;
+        text-shadow: -0.5px 0 black, 0 -0.5px black, 1px 0 black, 0 -0.5px black;
+        border-spacing:5px;
+    }
+
+    #herpderrp {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+        column-gap: 400px;
+        padding-top:100px;
+        padding-bottom:500px;
+    }
+
+    #herpderrp:first-child {
+        padding-left: 100px;
+    }
+
+    .class1 {
+        border-top: thin solid black;
+        border-bottom:thin solid black;
+    }
+
     .errorlist {
         list-style: none;
         display:none;
-    }
-
-    br {
-        display: block; /* makes it have a width */
-        content: ""; /* clears default height */
-        margin-top: 30px;
     }
 
     .asteriskField {
@@ -51,42 +152,8 @@
         width: 300px;
     }
 
-    .nav.navbar-nav{
-        background:transparent;
-        top:20px;
-        color: brown;
-        height: 100px;
-    }
-
-    .nav.navbar-nav > li > a{
-        color:black;
-        background:transparent;
-
-        font-size: 20px;
-        padding-top: 120px;
-        padding-bottom: 200px;
-        padding-right:30px;
-        right:80px;
-    }
-
-    .nav.navbar-nav > li > a:hover{
-        color:grey;
-    }
-
-    body {padding-top: 100px;}
-
-    body.home {
-        background-image: url("http://www.discoverymundo.com/blog/wp-content/uploads/2016/07/sports-cancun.jpg");
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: #464646;
-    }
-
     .logo {
         display: inline-block;
-
         top:0;
         float:left;
         vertical-align: top;
@@ -104,7 +171,6 @@
         height: 90%;
         width: 100%;
     }
-
 
     .img2 {
         height:400px;
@@ -124,6 +190,103 @@
         width:500px;
     }
 
+    #login-dp{
+        min-width: 250px;
+        padding: 14px 14px 0;
+        overflow:hidden;
+        background-color:rgba(255,255,255,.8);
+    }
+
+    #login-dp .help-block{
+        font-size:12px
+    }
+
+    #login-dp .bottom{
+        background-color:rgba(255,255,255,.8);
+        border-top:1px solid #ddd;
+        clear:both;
+        padding:40px;
+    }
+
+    #login-dp .social-buttons{
+        margin:12px 0
+    }
+
+    #login-dp .social-buttons a{
+        width: 49%;
+    }
+
+    #login-dp .form-group {
+        margin-bottom: 10px;
+    }
+
+    .btn-fb{
+        color: #fff;
+        background-color:#3b5998;
+    }
+
+    .btn-fb:hover{
+        color: #fff;
+        background-color:#496ebc
+    }
+
+    .btn-tw{
+        color: #fff;
+        background-color:#55acee;
+    }
+
+    .btn-tw:hover{
+        color: #fff;
+        background-color:#59b5fa;
+    }
+
+    .nav.navbar-default {
+        background-color: black;
+        position:fixed;
+    }
+
+    #tog1 {
+        height: 27px;
+        text-align: center;
+    }
+
+    #officialnavbar {
+        width:100%;
+        position:fixed;
+        z-index: 500
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .nav.navbar-nav {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    @media(max-width:768px){
+        #login-dp{
+            background-color: inherit;
+            color: #fff;
+        }
+
+        .navbar-default {
+            min-height: 0px;
+        }
+
+
+        #login-dp .bottom {
+            background-color: inherit;
+            border-top: 0 none;
+    }
+
+
+
+}
 
 
 
